@@ -163,3 +163,8 @@ body {
   color: var(--light-btn-txt);
   background-color: var(--btn-hover);
 }
+
+.portfolio-descr {
+  color: var(--main-txt-color);
+  letter-spacing: 0.02em;
+}
