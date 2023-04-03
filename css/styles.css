@@ -1,6 +1,7 @@
 :root {
   --main-font: Roboto, sans-serif;
   --main-txt-color: #434455;
+  --address-color: #434455;
   --link-color: #2e2f42;
   --link-hover-color: #404bbf;
   --light-btn-txt: #ffffff;
@@ -61,11 +62,16 @@ body {
 }
 
 /* header */
-.header-link,
-.address-link {
+.header-link {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--link-color);
+}
+
+.address-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--address-color);
 }
 
 .address {
@@ -121,15 +127,21 @@ body {
   color: var(--title-txt);
 }
 
+/* features */
+.description {
+  letter-spacing: 0.02em;
+}
+
+/* team */
 .section-team {
   background-color: #f4f4fd;
 }
 
-.team-title {
-  text-align: center;
+.photo-item {
+  background-color: #ffffff;
 }
 
-.position {
+.team-title {
   text-align: center;
 }
 
