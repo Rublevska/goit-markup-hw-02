@@ -15,6 +15,24 @@
   --hero-txt: #ffffff;
 }
 
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+/* body */
 body {
   font-family: var(--main-font);
   font-size: 16px;
@@ -23,6 +41,7 @@ body {
   background-color: #ffffff;
 }
 
+/* logo */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -31,7 +50,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
-  text-decoration: none;
 }
 
 .logo-dark {
@@ -42,17 +60,9 @@ body {
   color: var(--light-txt);
 }
 
-.link {
-  color: inherit;
-  text-decoration: none;
-  letter-spacing: 0.02em;
-}
-
-.list {
-  list-style: none;
-}
-
-.header-link {
+/* header */
+.header-link,
+.address-link {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--link-color);
@@ -60,7 +70,6 @@ body {
 
 .address {
   font-style: normal;
-  letter-spacing: 0.02em;
 }
 
 .header-link:hover,
@@ -70,6 +79,11 @@ body {
   color: var(--link-hover-color);
 }
 
+/* hero */
+.hero-section {
+  background-color: #2e2f42;
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -77,14 +91,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--hero-txt);
-  background-color: #2e2f42;
-}
-
-.btn {
-  font-family: inherit;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  cursor: pointer;
 }
 
 .hero-btn {
@@ -97,17 +103,7 @@ body {
   background-color: var(--btn-hover);
 }
 
-.portfolio-btn {
-  color: var(--dark-btn-txt);
-  background-color: var(--btn-background);
-}
-
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-  color: var(--light-btn-txt);
-  background-color: var(--btn-hover);
-}
-
+/* section */
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -125,6 +121,10 @@ body {
   color: var(--title-txt);
 }
 
+.section-team {
+  background-color: #f4f4fd;
+}
+
 .team-title {
   text-align: center;
 }
@@ -139,4 +139,15 @@ body {
 
 .footer-text {
   color: var(--light-txt);
+}
+
+.portfolio-btn {
+  color: var(--dark-btn-txt);
+  background-color: var(--btn-background);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--light-btn-txt);
+  background-color: var(--btn-hover);
 }
