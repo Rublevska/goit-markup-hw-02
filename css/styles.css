@@ -31,6 +31,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
+  text-decoration: none;
 }
 
 .logo-dark {
@@ -59,6 +60,7 @@ body {
 
 .address {
   font-style: normal;
+  letter-spacing: 0.02em;
 }
 
 .header-link:hover,
@@ -131,7 +133,10 @@ body {
   text-align: center;
 }
 
-footer {
+.footer {
   background-color: #2e2f42;
+}
+
+.footer-text {
   color: var(--light-txt);
 }
