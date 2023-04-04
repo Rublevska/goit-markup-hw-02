@@ -37,7 +37,6 @@
 body {
   font-family: var(--main-font);
   font-size: 16px;
-  line-height: 1.5;
   color: var(--main-txt-color);
   background-color: #ffffff;
 }
@@ -66,12 +65,13 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--link-color);
+  line-height: 1.5;
 }
 
 .address-link {
-  font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--address-color);
+  line-height: 1.5;
 }
 
 .address {
@@ -129,6 +129,7 @@ body {
 
 /* features */
 .description {
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -138,11 +139,8 @@ body {
 }
 
 .photo-item {
-  background-color: #ffffff;
-}
-
-.team-title {
   text-align: center;
+  background-color: #ffffff;
 }
 
 .footer {
@@ -150,6 +148,7 @@ body {
 }
 
 .footer-text {
+  line-height: 1.5;
   color: var(--light-txt);
 }
 
@@ -165,6 +164,7 @@ body {
 }
 
 .portfolio-descr {
-  color: var(--main-txt-color);
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--main-txt-color);
 }
